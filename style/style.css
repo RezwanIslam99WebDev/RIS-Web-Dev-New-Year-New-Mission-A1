@@ -1,16 +1,12 @@
 /*{ 
     margin: 0px;
 }*/
-body {
-    font-family: 'Merriweather', serif;
-}
 
-/* Banner style */
+/* Banner style in header */
 
 .header {
     max-width: 1320px;
     height: 600px;
-    border-radius: 16px;
     background-image: url('../images/Banner Image.png');
     background-repeat: no-repeat;
 }
@@ -19,21 +15,64 @@ body {
     padding: 200px 300px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     height: 250px;
+    border-radius: 16px;
 }
+
 .banner-greeting {
     color: rgb(146, 140, 140);
+    font-family: 'Merriweather', serif;
     text-align: center;
     font-size: 32px;
     font-weight: 400px;
     margin-bottom: 0px;
-    margin-top: 0px;   
+    margin-top: 0px;
 }
 
 .banner-title {
     color: #cfbbbb;
+    font-family: 'Merriweather', serif;
     text-align: center;
     font-size: 72px;
     font-weight: 900px;
     margin-top: 10px;
     margin-bottom: 380px;
+}
+
+/* Discount offer section style */
+
+.discount {
+    text-align: center;
+}
+
+.discount-title-1 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-weight: 700;
+    margin: 120px 450px 0px 450px;
+}
+
+.discount-title-2 {
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 48px 450px 0px 450px;
+}
+
+.categories {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 10px 450px 0px 450px;
+}
+
+.discount-section-images {
+    width: 800px;
+    height: 500px;
+    margin: 48px 250px 0px 250px;
 }
