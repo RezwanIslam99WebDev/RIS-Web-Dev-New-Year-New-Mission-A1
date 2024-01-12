@@ -1,12 +1,23 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    /* margin: 0px; */
+}
+
+body {
+    display: block;
+    /* max-width: 1600px; */
+}
 
 /* Banner style in header */
 
 .header {
-    max-width: 1320px;
-
     background-image: url('../images/Banner Image.png');
-    height: 600px;
     background-repeat: no-repeat;
+    max-width: 1320px;
+    height: 600px;
+    /* margin: 50px 140px 0px 140px; */
 }
 
 .banner {
@@ -17,7 +28,7 @@
 }
 
 .banner-greeting {
-    color: rgb(146, 140, 140);
+    color: #FFF;
     font-family: 'Merriweather', serif;
     text-align: center;
     font-size: 32px;
@@ -27,7 +38,7 @@
 }
 
 .banner-title {
-    color: #cfbbbb;
+    color: #FFF;
     font-family: 'Merriweather', serif;
     text-align: center;
     font-size: 72px;
@@ -39,13 +50,13 @@
 /* Discount offer section style */
 
 .discount {
-    text-align: center;
+    display: block;
     max-width: 100%;
 }
 
 .discount-title-1 {
     color: #F00;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Inter', sans-serif;
     font-size: 88px;
     font-weight: 700;
@@ -54,7 +65,7 @@
 
 .discount-title-2 {
     color: #F00;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Inter', sans-serif;
     font-size: 24px;
     font-weight: 500;
@@ -63,7 +74,7 @@
 
 .categories {
     color: #070211;
-    text-align: center;
+    /* text-align: center; */
     font-family: 'Inter', sans-serif;
     font-size: 48px;
     font-weight: 700;
@@ -81,17 +92,24 @@
 .welcome-midnight-party-banner {
     background-image: url('../images/Vectorrr.png');
     background-repeat: no-repeat;
-
     width: 1320px;
+    border-radius: 20px;
     height: 600px;
     margin-top: 120px;
-    
+}
 
+.party-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+    padding: 68px 138px 67px 126px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
 }
 
 .party-banner {
-    width: 650px;
-    padding: 100px 550px 300px 125px;
+    display: block;
+    flex-basis: 650px;
+    padding: 125px auto;
 }
 
 .party-banner-title {
@@ -103,32 +121,76 @@
     letter-spacing: 7px;
     margin-bottom: 0px;
 }
-.party-banner-description{
+
+.party-banner-description {
     color: rgba(255, 255, 255, 0.80);
     font-family: 'Inter', sans-serif;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-margin-top: 24px; 
-margin-bottom: 0px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 0px;
 }
-.party-banner-button{
+
+.party-banner-button {
     color: #FFF;
-text-align: center;
-font-family: 'Inter', sans-serif;
-font-size: 20px;
-font-weight: 700;
-text-transform: uppercase;
-background: none;
-border: none;
-margin-top: 48px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: none;
+    border: none;
+    margin-top: 48px;
 }
-.party-banner-images{
-    display: flex;
-width: 319.83px;
-height: 464.662px;
-padding: 0.008px 0px 0px 0px;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+
+.party-banner-images {
+    width: 319.83px;
+    height: 464.662px;
+    align-items: center;
+    margin-left: 40px;
+}
+
+/* Party-information style*/
+
+.party-information {
+    width: 1320px;
+    height: auto;
+    margin-top: 120px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+
+section div span {
+    color: #F00;
+}
+
+.party-information-container {
+    color: #070211;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+    padding-top: 100px;
+    margin-bottom: 0px;
+}
+
+.party-information-button {
+    border: none;
+    border-radius: 10px;
+    background: #F00;
+    padding: 16px 32px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-top: 48px;
+    margin-bottom: 110px;
 }
