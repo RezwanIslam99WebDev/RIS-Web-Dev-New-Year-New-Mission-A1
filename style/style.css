@@ -205,12 +205,13 @@ section div span {
     ;
     border-radius: 15px;
     margin-top: 90px;
+    /* margin-bottom: 120px; */
     /* flex-wrap: wrap; */
 }
 
 .new-best-offer {
     width: auto;
-    padding: 85px 70px 85px 0px;
+    padding: 85px 70px 85px 20px;
 }
 
 .best-offer-greeting {
@@ -256,8 +257,6 @@ section div span {
     border-radius: 463px;
     text-align: center;
     margin-bottom: 0px;
-
-
 }
 
 .best-offer-images>img {
@@ -298,4 +297,108 @@ section div span {
     width: 140px;
     height: 140px;
     margin-top: 0px;
+}
+
+/* WHAT IS FUNCTIONAL section style */
+
+.section5-what-is-functional {
+    width: 1320px;
+    height: auto;
+}
+
+.what-is-functional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.what-is-functional h2 {
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.what-is-functional h1 span {
+    color: #F00;
+}
+
+.what-is-functional h1 {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    margin-top: 1px;
+    margin-bottom: 0px;
+}
+
+.what-is-functional p {
+    width: 880px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.what-is-functional-images {
+    background-image: url('../images/Rectangle 2.png');
+    background-size: 1320px 160px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    fill: radial-gradient(49.96% 50% at 50% 50.23%, #3f0606 0%, #4e1919 100%);
+    opacity: 0.9;
+    background-blend-mode: multiply;
+    mix-blend-mode: multiply;
+
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+}
+
+.background-images {
+    background-image: url('../images/Rectangle 1.png');
+    background-size: 429px 340px;
+    background-repeat: no-repeat;
+    background-position: right 5px bottom 160px;
+    display: flex;
+    justify-content: space-between;
+
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.images1 {
+    width: 500px;
+    height: 500px;
+}
+
+/* .background-images {
+    background-image: url('../images/Rectangle 1.png');
+    background-repeat: no-repeat;
+    background-size: 400px 400px;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    align-items: flex-end;
+} */
+.images2 {
+    width: 200px;
+    height: 200px;
+    margin: 0px 330px 150px 0px;
+    /* display: flex;
+    align-items: center; */
+    /* justify-content: center; */
+    /* display: flex;
+justify-content: space-between; */
 }
