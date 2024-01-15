@@ -5,10 +5,9 @@
     /* margin: 0px; */
 }
 
-body {
+/* body {
     display: block;
-    /* max-width: 1600px; */
-}
+} */
 
 /* Banner style in header */
 
@@ -360,10 +359,6 @@ section div span {
     opacity: 0.9;
     background-blend-mode: multiply;
     mix-blend-mode: multiply;
-
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
 }
 
 .background-images {
@@ -373,8 +368,6 @@ section div span {
     background-position: right 5px bottom 160px;
     display: flex;
     justify-content: space-between;
-
-    /* justify-content: center; */
     align-items: center;
 }
 
@@ -383,22 +376,74 @@ section div span {
     height: 500px;
 }
 
-/* .background-images {
-    background-image: url('../images/Rectangle 1.png');
-    background-repeat: no-repeat;
-    background-size: 400px 400px;
-    background-position: top;
-    display: flex;
-    align-items: center;
-    align-items: flex-end;
-} */
 .images2 {
     width: 200px;
     height: 200px;
     margin: 0px 330px 150px 0px;
-    /* display: flex;
-    align-items: center; */
-    /* justify-content: center; */
-    /* display: flex;
-justify-content: space-between; */
 }
+
+/* Section 6 THE BEST GIFTS part style */
+
+.section6-the-best-gifts {
+    margin-top: 90px;
+
+}
+
+.text-container {
+    margin-left: 19px;
+}
+
+.section6-the-best-gifts .title1 {
+    width: 192px;
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.section6-the-best-gifts .title2 {
+    color: #070211;
+    width: 566px;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 14px;
+    margin-bottom: 0px;
+}
+
+.section6-the-best-gifts .description {
+    color: rgba(7, 2, 17, 0.60);
+    width: 896px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-top: 19px;
+    margin-bottom: 0px;
+}
+
+.images-container {
+    width: 1320px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.images-container img {
+    width: 424px;
+    height: 450px;
+    background-color: #FFF;
+    margin: 0px 10px 10px 0px;
+}
+
+
+slack,
+zoom,
+shortcut,
+git,
