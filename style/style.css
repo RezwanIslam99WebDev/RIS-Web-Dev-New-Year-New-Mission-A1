@@ -454,6 +454,7 @@ section div span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 117px;
 }
 
 .section7-subscribe-newsletter img {
@@ -516,8 +517,95 @@ section div span {
     line-height: normal;
 }
 
+/* Footer style */
 
+footer {
+    width: 1320px;
+    height: 609px;
+    background: #070211;
+    margin-top: 60px;
+    border-radius: 15px;
 
+}
+
+#footer-address {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer>div>p {
+    width: 375px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 120px 0px 0px 140px;
+}
+
+#footer-p-container {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    margin: 100px 260px 0px 0px;
+}
+
+.footer-logo-images {
+    width: 24px;
+    height: 24px;
+}
+
+#p2 {
+    margin-top: -30px;
+}
+
+.footer-hr {
+    width: 1200px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.footer-images {
+    text-align: center;
+}
+
+.footer-images img {
+    width: 64px;
+    height: 64px;
+    margin: 18px;
+}
+
+.footer-copy-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 140px 0px 140px;
+}
+
+.footer-copy-right small {
+    /* width: 295px; */
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px 0px 0px 0px;
+}
+
+.footer-copy-right small {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0px 0px 0px 0px;
+}
 
 /* slack,
 zoom,
